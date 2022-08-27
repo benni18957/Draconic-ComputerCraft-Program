@@ -30,8 +30,8 @@ local emergencyCharge = false
 local emergencyTemp = false
 
 monitor = f.periphSearch("monitor")
-inputFluxgate = f.periphSearch("flux_gate")
-fluxgate = f.getPeripheral("flux_gate")
+inputFluxgate = f.periphSearch("flow_gate")
+fluxgate = f.getPeripheral("flow_gate")
 reactor = f.getPeripheral("draconic_reactor")
 
 if monitor == nil then
